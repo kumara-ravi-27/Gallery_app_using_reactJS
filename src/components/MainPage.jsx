@@ -4,19 +4,24 @@ import './MainPage.css';
 
 const imagesData = {
   Flowers: [
-    '/assets/flowers/flower1.jpeg',
-    '/assets/flowers/flower2.jpeg',
-    '/assets/flowers/flower3.jpeg',
-    '/assets/flowers/flower4.jpeg',
-    '/assets/flowers/flower5.jpeg',
+    '/assets/flowers/f1.jpg',
+    '/assets/flowers/f2.jpg',
+    '/assets/flowers/f3.jpg',
+    '/assets/flowers/f4.jpg',
+    '/assets/flowers/f5.jpg',
+    '/assets/flowers/f6.jpg',
+    '/assets/flowers/f7.jpg',
     
   ],
   Birds: [
-    '/assets/birds/bird1.jpeg',
-    '/assets/birds/bird2.jpeg',
-    '/assets/birds/bird3.jpeg',
-    '/assets/birds/bird4.jpeg',
-    '/assets/birds/bird5.jpeg',
+    '/assets/birds/b1.jpg',
+    '/assets/birds/b2.jpg',
+    '/assets/birds/b3.jpg',
+    '/assets/birds/b4.jpg',
+    '/assets/birds/b5.jpg',
+    '/assets/birds/b6.jpg',
+    '/assets/birds/b7.jpg',
+    '/assets/birds/b8.jpg',
     
   ],
   Animals: [
