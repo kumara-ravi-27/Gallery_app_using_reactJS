@@ -1,0 +1,64 @@
+.mainpage-container {
+  max-width: 1000px;
+  margin: 20px auto;
+  padding: 20px;
+  background-color: rgba(255, 255, 255, 0.75);
+  border-radius: 12px;
+  box-shadow: 0 8px 20px rgba(0, 0, 0, 0.15);
+  font-family: Arial, sans-serif;
+  text-align: center;
+  min-height: 80vh;
+}
+
+.section-title {
+  margin-top: 20px;
+  color: #333;
+}
+
+.image-container {
+  display: flex;
+  flex-wrap: wrap;           /* Wrap images to next row */
+  justify-content: center;   /* Center images horizontally */
+  gap: 15px;                 /* Space between images */
+  margin-top: 15px;
+}
+
+.image-wrapper {
+  position: relative;
+  width: 160px;              /* Fixed width */
+  height: 110px;             /* Fixed height */
+  border-radius: 10px;
+  overflow: hidden;
+  box-shadow: 0 0 8px rgba(0, 0, 0, 0.1);
+}
+
+.gallery-image {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;         /* Maintain aspect ratio, cover area */
+  border-radius: 10px;
+  display: block;
+}
+
+/* Heart icon positioned top-right corner */
+.heart-icon {
+  position: absolute;
+  top: 6px;
+  right: 8px;
+  font-size: 22px;
+  cursor: pointer;
+  user-select: none;
+  color: #eee;
+  text-shadow: 0 0 3px rgba(0, 0, 0, 0.7);
+  transition: color 0.3s ease;
+  z-index: 10;
+}
+
+.heart-icon:hover {
+  color: #ff5555;
+}
+
+.heart-icon.favorited {
+  color: #ff0000;
+  text-shadow: 0 0 8px #ff0000cc;
+}
